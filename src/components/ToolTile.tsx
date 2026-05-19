@@ -92,10 +92,10 @@ export function ToolTile({ tool, gradient, onSelect }: Props) {
 
       {/* アプリ名オーバーレイ（モバイルではコンパクト） */}
       <div className="absolute bottom-0 inset-x-0 px-2.5 sm:px-4 pt-4 sm:pt-8 pb-2 sm:pb-3 bg-gradient-to-t from-black/85 via-black/45 to-transparent z-10">
-        <h3 className="text-white text-[11px] sm:text-base md:text-lg font-extrabold leading-tight drop-shadow-md tracking-tight line-clamp-2">
+        <h3 className="text-white text-xs sm:text-base md:text-lg font-extrabold leading-tight drop-shadow-md tracking-tight line-clamp-2">
           {tool.name}
         </h3>
-        <p className="text-white/80 text-[9px] sm:text-[11px] md:text-xs mt-0.5 line-clamp-1">
+        <p className="text-white/80 text-[11px] sm:text-[11px] md:text-xs mt-0.5 line-clamp-1">
           {tool.category}
         </p>
       </div>

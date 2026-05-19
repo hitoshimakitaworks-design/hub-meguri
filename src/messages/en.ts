@@ -7,14 +7,14 @@ export const en = {
   howToClose: 'Close',
 
   howToSteps: [
-    { title: 'STEP 1: Pick a tool', desc: 'Click any tool from the list below.' },
-    { title: 'STEP 2: Use the tool', desc: 'Fill in your details and get results instantly.' },
-    { title: 'STEP 3: Print or copy', desc: 'Print, export, or copy your results — all free.' },
+    { title: 'STEP 1: Find a tool by category or search', desc: 'Use the sidebar categories or the search bar at the top to quickly find what you need.' },
+    { title: 'STEP 2: Tap a tile to preview', desc: 'Tap any tool card to see its description. Check "Open directly next time" to skip this step in the future.' },
+    { title: 'STEP 3: Hit "Use now" to open the tool', desc: 'No sign-up required — all tools are 100% free. Results can be printed, copied, or exported as PDF.' },
   ],
-  howToNote: '',
+  howToNote: 'All 15 tools are free with no limits. Bookmark this page to come back anytime.',
 
-  heroTitle: 'From chore to calm.',
-  heroDesc: 'Tools to enrich your work and daily life.',
+  heroTitle: '15 handy tools — all completely free.',
+  heroDesc: 'Invoices, shift tables, timers, calculators and more to support your work and daily life.',
 
   // Section titles
   sectionFeatured: '🔥 Featured',
