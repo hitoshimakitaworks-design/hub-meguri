@@ -95,7 +95,7 @@ export function ToolTile({ tool, gradient, onSelect }: Props) {
         <h3 className="text-white text-xs sm:text-base md:text-lg font-extrabold leading-tight drop-shadow-md tracking-tight line-clamp-2">
           {tool.name}
         </h3>
-        <p className="text-white/80 text-[11px] sm:text-[11px] md:text-xs mt-0.5 line-clamp-1">
+        <p className="text-white/80 text-xs md:text-xs mt-0.5 line-clamp-1">
           {tool.category}
         </p>
       </div>

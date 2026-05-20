@@ -24,8 +24,14 @@ export const metadata: Metadata = {
   description: '請求書・シフト表・ハッシュタグなど、日々の業務をサポートする無料ツールが揃っています。Free collection of useful online tools.',
   openGraph: {
     title: 'Meguri | 無料ツール集',
-    description: '請求書・シフト管理・SNS運用を無料でサポートするツール集',
+    description: '請求書・シフト表・タイマー・計算ツールなど、毎日の仕事と暮らしをサポートする15の無料ツール集',
     type: 'website',
+    url: 'https://hub-meguri.vercel.app',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Meguri | 無料ツール集',
+    description: '請求書・シフト表・タイマーなど15の無料ツール集',
   },
 }
 
